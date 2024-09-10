@@ -1,4 +1,4 @@
-#README - Assignment 1: Array Operations Program 
+# README - Assignment 1: Array Operations Program 
 
 The program will read the array from the file A1input.txt. You will then be prompted to:
 - Find the number in an array. 
@@ -6,7 +6,7 @@ The program will read the array from the file A1input.txt. You will then be prom
 - Add a new number to the array.
 - Remove a number at a given index.
 
-##Files
+## Files
 - main.cpp: Contains the main logic of the program and user interaction.
 - Question1.h: Header file that contains the function declarations for basic array functions
 - Question1.cpp: Code of basic array functions
@@ -14,8 +14,8 @@ The program will read the array from the file A1input.txt. You will then be prom
 - Question2.cpp: Code of error handling array functions
 - A1input.txt: Input file from which the array of numbers is loaded.
 
-##Implementation:
-###1. Create array, size, and MAX_SIZE variables to initialize array:
+## Implementation:
+### 1. Create array, size, and MAX_SIZE variables to initialize array:
 
 '''cpp
 
@@ -25,7 +25,7 @@ The program will read the array from the file A1input.txt. You will then be prom
 
 '''
 
-###2. Open and Read Input File and Load to a one-dimensional vector
+### 2. Open and Read Input File and Load to a one-dimensional vector
 
 '''cpp
 
@@ -56,7 +56,7 @@ Array Once File Loaded:
 
 '''
 
-###3. Set Up Operations Menu. Ask user to pick from array operations mentioned in Question1.h. Each option corresponds to a function in Question1.h.
+### 3. Set Up Operations Menu. Ask user to pick from array operations mentioned in Question1.h. Each option corresponds to a function in Question1.h.
 
 '''
 
@@ -69,6 +69,7 @@ Array Once File Loaded:
 '''
 
 Sample Output From Operation 1:
+
 Number Found:
 ![Array Diagram](SAMPLEOUTPUT1.png)
 
